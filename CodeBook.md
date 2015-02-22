@@ -29,3 +29,7 @@ activity_label: assigned ActivityID and Activity
 
 sensor_labels: features or column names saved in sensor_labels
 sensor_data_mean_std: measurements on the mean and standard deviation for each measurement.
+average_data: independent tidy data set with the average of each variable for each activity and each subject.
+
+sensor_data_by_avg_activity.txt: Output data file.
+
