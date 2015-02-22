@@ -16,4 +16,16 @@ The script run_analysis.R: File has the code to perform following analysis and w
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Variables
+x_train, y_train, subject_train: training set data downloaded from file
+training_sensor_data: combined training set data
 
+x_test, y_test, subject_test: test set data downloaded from file 
+test_sensor_data: combined test set data
+
+sensor_data: Merged training and test set data
+
+features: feature variables
+activity_label: assigned ActivityID and Activity
+
+sensor_labels: features or column names saved in sensor_labels
+sensor_data_mean_std: measurements on the mean and standard deviation for each measurement.
